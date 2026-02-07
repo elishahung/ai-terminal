@@ -1,3 +1,5 @@
+![](./docs/demo.gif)
+
 # AI Terminal
 
 A blazing-fast, lightweight command-line helper that translates natural language into shell commands.
