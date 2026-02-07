@@ -1,12 +1,12 @@
 ![](./docs/demo.gif)
 
-# AI Terminal
+# Terminal Ginkgo
 
 A blazing-fast, lightweight command-line helper that translates natural language into shell commands.
 
 > If you're like me — you don't trust AI to do your work, but your brain is too small to remember all those commands.
 
-## Why AI Terminal?
+## Why Terminal Ginkgo?
 
 I originally used `claude -p` and `gemini` CLI tools, but they were just **too slow** to start up.
 
@@ -52,8 +52,8 @@ yt-dlp -x --audio-format mp3 https://www.youtube.com/watch?v=xxxxx
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ai-terminal.git
-cd ai-terminal
+git clone https://github.com/elishahung/terminal-ginkgo.git
+cd terminal-ginkgo
 
 # Install dependencies
 uv sync
@@ -71,7 +71,7 @@ The compiled `ai.exe` will be in the `dist/` folder.
 2. Set your API key as an environment variable:
    ```bash
    # Windows (cmd)
-   setx AI_TERMINAL_API_KEY "your-api-key-here"
+   setx TERMINAL_GINKGO_API_KEY "your-api-key-here"
    
    # Or use GEMINI_API_KEY
    setx GEMINI_API_KEY "your-api-key-here"
@@ -88,7 +88,7 @@ ai <your request in natural language>
 ## Project Structure
 
 ```
-ai-terminal/
+terminal-ginkgo/
 ├── src/
 │   ├── main.py          # Entry point
 │   ├── gemini.py        # Gemini API client (using raw requests)
@@ -105,7 +105,7 @@ ai-terminal/
 
 | Environment Variable | Description |
 |---------------------|-------------|
-| `AI_TERMINAL_API_KEY` | Your Gemini API key (primary) |
+| `TERMINAL_GINKGO_API_KEY` | Your Gemini API key (primary) |
 | `GEMINI_API_KEY` | Your Gemini API key (fallback) |
 
 ## How It Works

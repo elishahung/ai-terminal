@@ -1,5 +1,5 @@
 """
-AI Terminal - A fast command-line AI assistant.
+Terminal Ginkgo - A fast command-line AI assistant.
 
 Translates natural language queries into shell commands using LLM.
 """
@@ -14,7 +14,7 @@ from clipboard import copy_to_input
 
 
 def main():
-    """Main entry point for the AI Terminal."""
+    """Main entry point for the Terminal Ginkgo."""
     if len(sys.argv) < 2:
         print("Usage: ai <your request>")
         sys.exit(1)

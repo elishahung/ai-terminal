@@ -1,6 +1,6 @@
 uv run python -m nuitka ^
   --onefile ^
-  --onefile-tempdir-spec="{CACHE_DIR}/ai-terminal" ^
+  --onefile-tempdir-spec="{CACHE_DIR}/terminal-ginkgo" ^
   --output-dir=dist ^
   --remove-output ^
   --lto=yes ^
